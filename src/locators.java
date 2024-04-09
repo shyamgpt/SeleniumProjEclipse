@@ -25,7 +25,7 @@ public class locators {
 		 driver.findElement(By.linkText("Forgot your password?")).click();
 		 
 		 driver.findElement(By.xpath("//input[@placeholder='Name']")).sendKeys("Shyam");
-		 driver.findElement(By.cssSelector("input[placeholder='Email']")).sendKeys("svt@gmail.com")
+		 driver.findElement(By.cssSelector("input[placeholder='Email']")).sendKeys("svt@gmail.com");
          
 	}
 
