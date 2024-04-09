@@ -36,23 +36,7 @@ public class UiElementEnabledDisabled {
 			
 		driver.quit();
 			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+		
 		
 		
 	}
