@@ -30,6 +30,10 @@ public class ReadingExcel {
         
         Sheet sheet0 = workbook.getSheetAt(0);
         
+//        Row row0 = sheet0.getRow(0);
+//        Cell cellA = row0.getCell(0);
+//        System.out.println(cellA);
+        
         for(Row row : sheet0) {
         	
         	for(Cell cell: row) {
