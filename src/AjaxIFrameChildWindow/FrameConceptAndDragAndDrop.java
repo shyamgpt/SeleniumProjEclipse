@@ -1,3 +1,4 @@
+//Performing drag and drop operation in a frame using action class-->
 package AjaxIFrameChildWindow;
 
 import org.openqa.selenium.By;
@@ -28,6 +29,7 @@ public class FrameConceptAndDragAndDrop {
 		WebElement target = driver.findElement(By.id("droppable"));
 
 		a.dragAndDrop(source, target).build().perform();
+		driver.switchTo().defaultContent();
 
 	}
 
