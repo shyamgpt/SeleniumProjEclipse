@@ -62,8 +62,7 @@ public class limitingWebdriverScope {
 		driver.quit();
 		
 		
-		//table/tbody/tr/td[1]/ul
-		//Stale element exception
+		
 
 	}
 
