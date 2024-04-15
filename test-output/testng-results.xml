@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-13T22:27:10 IST" name="Default suite" finished-at="2024-04-13T22:27:10 IST" duration-ms="160">
+  <suite started-at="2024-04-14T23:51:02 IST" name="Default suite" finished-at="2024-04-14T23:51:02 IST" duration-ms="86">
     <groups>
     </groups>
-    <test started-at="2024-04-13T22:27:10 IST" name="Default test" finished-at="2024-04-13T22:27:10 IST" duration-ms="160">
-      <class name="OppsForFrameWork.PS1">
-        <test-method signature="testRun()[pri:0, instance:OppsForFrameWork.PS1@8458f04]" started-at="2024-04-13T22:27:10 IST" name="testRun" finished-at="2024-04-13T22:27:10 IST" duration-ms="12" status="PASS">
+    <test started-at="2024-04-14T23:51:02 IST" name="Default test" finished-at="2024-04-14T23:51:02 IST" duration-ms="86">
+      <class name="JavaStreamsSelenium.MergedTwoArrayList">
+        <test-method signature="mergeTwoList()[pri:0, instance:JavaStreamsSelenium.MergedTwoArrayList@606e4010]" started-at="2024-04-14T23:51:02 IST" name="mergeTwoList" finished-at="2024-04-14T23:51:02 IST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testRun -->
-      </class> <!-- OppsForFrameWork.PS1 -->
+        </test-method> <!-- mergeTwoList -->
+      </class> <!-- JavaStreamsSelenium.MergedTwoArrayList -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
