@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="JavaStreamsSelenium.MergedTwoArrayList">
+      <class name="JavaStreamsSelenium.StreamCollectConcepts">
         <methods>
-          <include name="mergeTwoList"/>
+          <include name="streamCollect"/>
         </methods>
-      </class> <!-- JavaStreamsSelenium.MergedTwoArrayList -->
+      </class> <!-- JavaStreamsSelenium.StreamCollectConcepts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
