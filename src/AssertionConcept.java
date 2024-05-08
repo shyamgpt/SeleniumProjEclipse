@@ -29,6 +29,7 @@ public class AssertionConcept {
 		Assert.assertFalse(driver.findElement(By.xpath("//div[text()='Armed Forces']")).isSelected());
 		
 		
+		
 		driver.findElement(By.xpath("//div[text()='Armed Forces']")).click();
 		Thread.sleep(3000);
 		

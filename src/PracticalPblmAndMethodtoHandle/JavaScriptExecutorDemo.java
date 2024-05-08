@@ -45,7 +45,7 @@ public class JavaScriptExecutorDemo {
 	System.out.println("trimed Value --"+Text[1].trim());
 	Assert.assertEquals(sum, total);
 		
-		driver.quit();
+//		driver.quit();
 		
 
 		

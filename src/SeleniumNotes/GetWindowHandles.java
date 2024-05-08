@@ -21,6 +21,7 @@ public class GetWindowHandles {
 		driver.manage().window().maximize();
 		driver.get("https://demo.automationtesting.in/Windows.html");
         String parentWindow = driver.getWindowHandle();
+        
         System.out.println("parent WindowID -->" +parentWindow);
       driver.findElement(By.xpath("(//button[@class='btn btn-info'][normalize-space()='click'])[1]")).click();
 	Set<String> allWindowID =	driver.getWindowHandles();
