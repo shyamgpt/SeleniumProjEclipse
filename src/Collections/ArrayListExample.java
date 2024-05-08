@@ -4,9 +4,10 @@ import java.util.ArrayList;
 
 public class ArrayListExample {
 	// can accept duplicate values
-	// ArrayList, LinkedList, Vector - Implemneting the List Interface
-	// array is fixed whie arrayList can dynamically grow
+	// ArrayList, LinkedList, Vector - Implementing the List Interface
+	// array is fixed while arrayList can dynamically grow
 	//You can access and insert any value in java
+	//It guarantee the order while set is not.
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
