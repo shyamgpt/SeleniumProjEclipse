@@ -1,3 +1,4 @@
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -19,7 +20,7 @@ public class ReadingExcel {
 		// TODO Auto-generated method stub
 		
 		//In this we take the file which i have to read
-		File f = new File("C:\\Users\\Sumit\\Desktop\\Selenium Jars\\filewriting\\myExcelFile.xlsx");
+		File f = new File("E:\\Selenium Jars\\filewriting\\myExcelFile.xlsx");
 		
 		//In this we load the above file -->
         FileInputStream fi = new FileInputStream(f);

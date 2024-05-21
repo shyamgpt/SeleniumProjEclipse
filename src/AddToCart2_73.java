@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class AddToCart2 {
+public class AddToCart2_73 {
 
 	@Test
 	public static void AddindToCart() throws InterruptedException {
@@ -18,7 +18,7 @@ public class AddToCart2 {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 
-//		int j =0;
+		int j =0;
 		String[] itemNeeded = { "Cucumber", "Brocolli", "Beetroot" };
 
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
@@ -29,6 +29,7 @@ public class AddToCart2 {
 		for (int i = 0; i < products.size(); i++) {
 
 			// Cucumber - 1 Kg --> Cucumber , 1 Kg
+			//Convert array into arrayList for easy search
 
 			String[] name = products.get(i).getText().split("-");
 			String formattedName = name[0].trim();
@@ -39,13 +40,13 @@ public class AddToCart2 {
 			if (itemNeededList.contains(formattedName)) {
 				Thread.sleep(3000);
 
-//				j++;
+				j++;
 				driver.findElements(By.xpath("//button[text()='ADD TO CART']")).get(i).click();
 				System.out.println(formattedName);
 
-//				if(j ==3) {
-//					break;
-//				}
+				if(j == itemNeeded.length) {
+					break;
+				}
 			}
 
 		}

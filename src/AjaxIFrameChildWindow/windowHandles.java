@@ -25,6 +25,17 @@ public class windowHandles {
 		String parentId = it.next();
 		String childId = it.next();
 		driver.switchTo().window(childId);
+		
+
+//		Set<String> allwindow = driver.getWindowHandles();
+//		Iterator<String> it = allwindow.iterator();
+//		
+//		while(it.hasNext()) {
+//			driver.switchTo().window(it.next());
+//			
+//			System.out.println(driver.getTitle());
+//		}
+		
 		driver.findElement(By.cssSelector("p.im-para.red")).getText();
 		System.out.println(driver.findElement(By.cssSelector("p.im-para.red")).getText());
 

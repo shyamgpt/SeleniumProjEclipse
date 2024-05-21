@@ -6,7 +6,11 @@ import org.openqa.selenium.support.ui.Select;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Dropdown {
+public class StaticDropdown_L51 {
+	
+	
+	// Static Dropdown Using Select Class -->
+	// Adding 6 passenger using while/for loops -->
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

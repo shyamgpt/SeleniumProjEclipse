@@ -21,7 +21,7 @@ public class ArrayListExample {
 //		a.remove(1);
 //		a.remove("java");
 //		System.out.println(a);
-		
+		System.out.println("-----");
 		System.out.println(a.get(2));
 		System.out.println(a.contains("testing"));
 		System.out.println(a.contains("java"));

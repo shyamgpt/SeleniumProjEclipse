@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class limitingWebdriverScope {
+public class limitingWebdriverScope_StaleExeption {
 
 	public static void main(String[] args) throws InterruptedException {
 		

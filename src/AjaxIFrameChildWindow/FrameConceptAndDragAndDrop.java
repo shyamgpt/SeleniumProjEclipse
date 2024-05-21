@@ -19,7 +19,10 @@ public class FrameConceptAndDragAndDrop {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://jqueryui.com/droppable/");
-
+		int size = driver.findElements(By.tagName("iframe")).size();
+		System.out.println(size);
+ // you can switch to frame with index, let suppose you have 3 frame i.e 0,1,2 -- and if you give 0 then 
+//		it will switch to 1 frame
 		WebElement ele = driver.findElement(By.cssSelector(".demo-frame"));
 		driver.switchTo().frame(ele);
 

@@ -7,7 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class AutoSuggestveDropDown {
+public class AutoSuggestveDropDown_L58 {
+	// Handling auto suggestive dropsdown with webdriver API
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub

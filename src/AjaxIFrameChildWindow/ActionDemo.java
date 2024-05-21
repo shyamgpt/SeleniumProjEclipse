@@ -31,7 +31,7 @@ public class ActionDemo {
 //		a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("Hello")
 //				.build().perform();
 		
-		//This will double click the send letters-->
+		//This will double click the send letters-->it will select the entire text
 		a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("Hello").doubleClick()
 		.build().perform();
 		

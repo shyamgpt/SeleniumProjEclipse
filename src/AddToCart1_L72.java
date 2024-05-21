@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class AddToCart1 {
+public class AddToCart1_L72 {
 
 	@Test
 	public static void Cart2() throws InterruptedException {
@@ -24,6 +24,7 @@ public class AddToCart1 {
 		for (int i = 0; i < products.size(); i++) {
 			String name = products.get(i).getText();
 			System.out.println(name);
+//			if (name.equalsIgnoreCase("Beetroot")) {
 			if (name.contains("Beetroot")) {
 				driver.findElements(By.xpath("//button[text()='ADD TO CART']")).get(i).click();
 

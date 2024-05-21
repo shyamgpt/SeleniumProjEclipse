@@ -9,7 +9,9 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class dynamicDropdown {
+public class dynamicDropdown_L54 {
+	
+	// How to write the x-path from parent To Child -->L55
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
@@ -23,6 +25,8 @@ public class dynamicDropdown {
 		
 		driver.get("https://www.spicejet.com/");
 		driver.manage().window().maximize();
+		
+		////div[@id='glsctl00_mainContent_ddl_originStation1_CTNR']
 		
 		Thread.sleep(4000);
 		
