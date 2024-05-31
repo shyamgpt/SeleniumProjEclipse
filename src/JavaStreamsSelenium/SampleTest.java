@@ -42,7 +42,7 @@ public class SampleTest {
 		names.add("Adam");
 		names.add("Romi");
 		
-		//there is no life for intermediate op if there is no terminal op
+		//there is no life for intermediate operation if there is no terminal operation
 //		terminal operation will execute only if inter op (filter) returns true
 //		We can create Streams
 //		How to use filter in Stream Api

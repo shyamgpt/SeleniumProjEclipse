@@ -7,7 +7,7 @@ import java.util.List;
 
 import org.testng.annotations.Test;
 
-public class JavaStreamMap {
+public class JavaStreamMap_L115 {
 
 	@Test
 	public void StreamMap() {

@@ -22,7 +22,7 @@ public class MergedTwoArrayList {
 		
 		List<String> names1 = Arrays.asList("Abhijit", "Don", "Aleekya", "Adam", "Rama", "Ahyam");
 		
-		//Merging two ArrayList
+		//Merging two DifferentList
 		
 		Stream<String> newStream = Stream.concat(names.stream(), names1.stream());
 //		newStream.sorted().forEach(s->System.out.println(s));

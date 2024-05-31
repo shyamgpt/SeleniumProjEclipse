@@ -1,10 +1,10 @@
-package CheckGit;
+package ExceptionHandling;
 
-public class git {
+public class ExprtionHanldingTheory {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-   System.out.println("Shyam");
+
 	}
 
 }

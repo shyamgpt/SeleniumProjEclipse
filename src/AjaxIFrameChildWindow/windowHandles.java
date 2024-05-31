@@ -21,7 +21,9 @@ public class windowHandles {
 		driver.get("https://rahulshettyacademy.com/loginpagePractise/#");
 		driver.findElement(By.xpath("//a[@class='blinkingText']")).click();
 		Set<String> windows = driver.getWindowHandles();
+		System.out.println(windows);
 		Iterator<String> it = windows.iterator();
+		System.out.println(it);
 		String parentId = it.next();
 		String childId = it.next();
 		driver.switchTo().window(childId);

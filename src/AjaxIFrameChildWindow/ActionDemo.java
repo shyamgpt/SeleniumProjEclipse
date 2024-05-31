@@ -26,17 +26,28 @@ public class ActionDemo {
 		Actions a = new Actions(driver);
 
 		a.moveToElement(move).build().perform();
-		
-        // This will sendkeys the word in capital letter-->
+
+		// This will sendkeys the word in capital letter-->
 //		a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("Hello")
 //				.build().perform();
-		
-		//This will double click the send letters-->it will select the entire text
-		a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("Hello").doubleClick()
-		.build().perform();
-		
-		//Right click on specific element -->
+
+		// This will double click the send letters-->it will select the entire text
+		a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("Hello")
+				.doubleClick().build().perform();
+
+		// Right click on specific element -->
 		a.moveToElement(move).contextClick().build().perform();
+
+		/*
+		 * Double click -->
+		 * 
+		 * //Double click on element
+		 * 
+		 * WebElement trialaction =
+		 * driver.findElement(By.xpath("//a[@id='free-trial-link-anchor']"));
+		 * 
+		 * a.doubleClick(trialaction).perform();
+		 */
 
 	}
 
