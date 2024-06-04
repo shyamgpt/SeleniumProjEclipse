@@ -17,6 +17,10 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 import org.testng.annotations.Test;
 
+
+/*Theroy Websites -->
+ * https://www.browserstack.com/guide/wait-commands-in-selenium-webdriver
+ * */
 public class ExplicitWaits {
 	
 	

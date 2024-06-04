@@ -1,5 +1,6 @@
 package AjaxIFrameChildWindow;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Set;
 
@@ -20,12 +21,16 @@ public class windowHandles {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/loginpagePractise/#");
 		driver.findElement(By.xpath("//a[@class='blinkingText']")).click();
+		
 		Set<String> windows = driver.getWindowHandles();
 		System.out.println(windows);
 		Iterator<String> it = windows.iterator();
 		System.out.println(it);
 		String parentId = it.next();
 		String childId = it.next();
+		System.out.println(childId);
+		System.out.println(parentId);
+
 		driver.switchTo().window(childId);
 		
 
@@ -33,11 +38,12 @@ public class windowHandles {
 //		Iterator<String> it = allwindow.iterator();
 //		
 //		while(it.hasNext()) {
+//			System.out.println("HasNext ->" +it.hasNext());
 //			driver.switchTo().window(it.next());
 //			
 //			System.out.println(driver.getTitle());
 //		}
-		
+//		
 		driver.findElement(By.cssSelector("p.im-para.red")).getText();
 		System.out.println(driver.findElement(By.cssSelector("p.im-para.red")).getText());
 
@@ -48,5 +54,7 @@ public class windowHandles {
 		driver.findElement(By.cssSelector("#username")).sendKeys(EmailId);
 
 	}
+
+	
 
 }

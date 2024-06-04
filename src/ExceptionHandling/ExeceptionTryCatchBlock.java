@@ -16,9 +16,22 @@ public class ExeceptionTryCatchBlock {
 			e.printStackTrace();
 		}
 		finally {
-			System.out.println("Im i final block");
+			System.out.println("Im in final block");
 		}
 
 	}
+	
+	/*
+	 * public static void main(String[] args) {
+		
+	  int a=5; 
+      int b=0; 
+        try{ 
+          System.out.println(a/b); 
+        } 
+      catch(ArithmeticException e){ 
+        e.printStackTrace(); 
+      } 
+	 * */
 
 }

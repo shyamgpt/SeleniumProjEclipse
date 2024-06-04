@@ -15,9 +15,7 @@ public class SampleTest2 {
 	
 	
 	Long d = Stream.of("Abi", "Don", "Ale", "Adam", "Ram").filter(s->{
-		s.startsWith("R");
-		return true;
-	}).count();
+		s.startsWith("R"); return true;}).count();
 	System.out.println("d is -->"+d);
 		
 		
