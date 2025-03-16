@@ -33,7 +33,7 @@ public class UiElementEnabledDisabled_L64 {
 		System.out.println(driver.findElement(By.xpath("//div[text()='Return Date']")).getAttribute("style"));
 		if (driver.findElement(By.xpath("//div[text()='Return Date']")).getAttribute("style").contains("1")) {
 			System.out.println("its Enabled!!");
-			Assert.assertTrue(false);
+			Assert.assertTrue(true);
 		} else {
 
 			Assert.assertTrue(false);

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="InterView_Questions.HtmlTable">
+      <class name="UiElementEnabledDisabled_L64">
         <methods>
-          <include name="VerifyResult"/>
+          <include name="uIEnabledAndDisabledTest"/>
         </methods>
-      </class> <!-- InterView_Questions.HtmlTable -->
+      </class> <!-- UiElementEnabledDisabled_L64 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

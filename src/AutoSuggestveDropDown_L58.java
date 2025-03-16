@@ -9,6 +9,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class AutoSuggestveDropDown_L58 {
 	// Handling auto suggestive dropsdown with webdriver API
+	// What is autosuggetive dropdowns -->When options comes based on your inputs.
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub

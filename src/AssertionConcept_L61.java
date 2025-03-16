@@ -35,7 +35,8 @@ public class AssertionConcept_L61 {
 		Thread.sleep(3000);
 		
 		
-		
+		//Assert.assertTrue --will accept a True value, if the value is True then testcase will
+		//pass and if 'False' value is passed as an argument then the test case will fail
 //		Assert.assertTrue(driver.findElement(By.xpath("//div[text()='Armed Forces']")).isSelected());
 		
 		System.out.println(driver.findElement(By.xpath("//div[text()='Armed Forces']")).isSelected());

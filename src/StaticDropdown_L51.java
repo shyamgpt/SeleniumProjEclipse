@@ -8,15 +8,20 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class StaticDropdown_L51 {
 	
-	
-	// Static Dropdown Using Select Class -->
+	// Lecture No: 52
+	// Static Dropdown Using Select Class --> 
+	// When any Dropdown have a tag 'Select' then there is specical class name Select 
+	//and we will use Select class to select the dropdown
+	//Select dropdown are static dropdown
 	// Adding 6 passenger using while/for loops -->
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		
 		WebDriverManager.chromedriver().setup();
 		 WebDriver driver = new ChromeDriver();
+//		 System.setProperty("webdriver.chrome.driver","/Users/shyam/docuemnt/chromdriver");
 		driver.get("https://rahulshettyacademy.com/dropdownsPractise");
 		driver.manage().window().maximize();
 		

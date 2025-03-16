@@ -35,6 +35,12 @@ public class HandlingCheckBox_L60 {
 		System.out.println(size);
 
 		driver.quit();
+		/*Let suppose you have 8 check boxes and how will you find there are how many checkboxes are there in a page
+		 * using selenium
+		 * 
+		 * Ans -->I will check for matching node and with the help of matching nodes i will get the number of all the 
+		 * check boxes
+		 * */
 
 	}
 

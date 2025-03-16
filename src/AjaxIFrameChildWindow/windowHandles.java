@@ -24,26 +24,26 @@ public class windowHandles {
 		
 		Set<String> windows = driver.getWindowHandles();
 		System.out.println(windows);
-		Iterator<String> it = windows.iterator();
-		System.out.println(it);
-		String parentId = it.next();
-		String childId = it.next();
-		System.out.println(childId);
-		System.out.println(parentId);
+//		Iterator<String> it = windows.iterator();
+//		System.out.println(it);
+//		String parentId = it.next();
+//		String childId = it.next();
+//		System.out.println(childId);
+//		System.out.println(parentId);
+//
+//		driver.switchTo().window(childId);
+//		
 
-		driver.switchTo().window(childId);
+		Set<String> allwindow = driver.getWindowHandles();
+		Iterator<String> it = allwindow.iterator();
 		
-
-//		Set<String> allwindow = driver.getWindowHandles();
-//		Iterator<String> it = allwindow.iterator();
-//		
-//		while(it.hasNext()) {
-//			System.out.println("HasNext ->" +it.hasNext());
-//			driver.switchTo().window(it.next());
-//			
-//			System.out.println(driver.getTitle());
-//		}
-//		
+		while(it.hasNext()) {
+			System.out.println("HasNext ->" +it.hasNext());
+			driver.switchTo().window(it.next());
+			
+			System.out.println(driver.getTitle());
+		}
+		
 		driver.findElement(By.cssSelector("p.im-para.red")).getText();
 		System.out.println(driver.findElement(By.cssSelector("p.im-para.red")).getText());
 
