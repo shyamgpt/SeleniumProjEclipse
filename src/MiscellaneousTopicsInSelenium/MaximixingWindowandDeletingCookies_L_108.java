@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class MaximixingWindowandDeletingCookies {
+public class MaximixingWindowandDeletingCookies_L_108 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -18,7 +18,7 @@ public class MaximixingWindowandDeletingCookies {
 //		driver.manage().deleteCookieNamed("SessionIdCookie");
 		
 		
-		//Click on any Linke
+		//Click on any Link
 		//Login page -verify login url
 		
 		driver.get("https://google.com");

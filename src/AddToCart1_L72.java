@@ -13,7 +13,7 @@ public class AddToCart1_L72 {
 	@Test
 	public static void Cart2() throws InterruptedException {
 //		"//button[text()='ADD TO CART']"
-
+// When there is no attribute- then search for whole product path where that item is present --mean search in the parent blog
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");

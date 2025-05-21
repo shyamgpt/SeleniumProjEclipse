@@ -49,6 +49,19 @@ public class ActionDemo {
 		 * a.doubleClick(trialaction).perform();
 		 */
 
+		
+		/*
+		 * Action class -->This class is used to handle mouse Hover and 
+		 * keyboard interaction with the user.
+		 * 
+		 * Eg:-
+		 * 
+		 * Performing Mouse and Keyboard intercation with Selenium
+		 * Context click on element
+		 * Double click on element
+		 * Drag and dropping the element
+		 * 
+		 * */
 	}
 
 }

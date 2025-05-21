@@ -23,10 +23,13 @@ public class JavaScriptExecutorDemo {
 		Thread.sleep(4000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scroll(0, 500)");
-//		js.executeScript("window.scroll(0, 500)");
+		//this is how we scroll the page-->
+//		js.executeScript("window.scroll(0, 500)");--> coordinate is selected with the help of hit and trial method
 		Thread.sleep(4000);
+		//This is how we scorll the component-->
 		js.executeScript("document.querySelector('.tableFixHead').scrollTop=5000");
 		List<WebElement> values = driver.findElements(By.cssSelector(".tableFixHead td:nth-child(4)"));
+		//xpath--> //td[4]--> td:nth-child(4)(By using Css-Selector)[parenet child]
 		
 		int sum = 0;
 		
@@ -34,6 +37,9 @@ public class JavaScriptExecutorDemo {
 			
 //			Integer.parseInt(values.get(i).getText());
 //			System.out.println(Integer.parseInt(values.get(i).getText()));
+			
+			// How to convert String to Integer-->
+//			Integer.parseInt(values.get(i).getText())
 			
 			sum = sum+Integer.parseInt(values.get(i).getText());
 			
@@ -48,7 +54,11 @@ public class JavaScriptExecutorDemo {
 //		driver.quit();
 		
 
-		
+		/*
+		 * Imp lecture watch again->
+		 * https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/learn/lecture/3650936#overview
+		 * **/
+	
 		
 		
 		

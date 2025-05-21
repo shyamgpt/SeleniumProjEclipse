@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class limitingWebdriverScope_StaleExeption {
+public class limitingWebdriverScope_StaleExeption_L94 {
 
 	public static void main(String[] args) throws InterruptedException {
 		
@@ -44,6 +44,7 @@ public class limitingWebdriverScope_StaleExeption {
 			// You will get StaleElement Exception here
 			
 			String clickonlinkTab = Keys.chord(Keys.CONTROL, Keys.ENTER);
+			// for the keyboard event we have to pass in 'Sendkeys'
 			
 			columnDriver.findElements(By.tagName("a")).get(i).sendKeys(clickonlinkTab);
 			Thread.sleep(5000);	
@@ -61,7 +62,10 @@ public class limitingWebdriverScope_StaleExeption {
 		
 		driver.quit();
 		
-		
+		/*
+		 * when you are trying to access the locatore which is not present on that page (earlier it was present on that page)
+		 * then it will give stale Element exception.
+		 * */
 		
 
 	}

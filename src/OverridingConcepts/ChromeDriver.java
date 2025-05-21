@@ -1,5 +1,14 @@
 package OverridingConcepts;
 
-public class ChromeDriver {
+public class ChromeDriver extends WebDriver{
+	
+	
+    public void clickOnChrome() {
+		
+	}
+	
+	public void sendKeysOnChrome() {
+		
+	}
 
 }

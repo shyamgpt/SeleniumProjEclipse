@@ -14,6 +14,10 @@ public class AddToCart2_73 {
 	@Test
 	public static void AddindToCart() throws InterruptedException {
 //		"//button[text()='ADD TO CART']"
+		// do not depends on text when you want to build locators -- Mean try to avoid 'Text' in writing the x-path
+		// because any any moment of time text can get change --especially when you have dynamic text.
+		// Lecture L-75, need rewatch this video to learn how to traverse from parent to child and how Xpath based
+		//'Text'is not suggested.
 
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
@@ -41,7 +45,9 @@ public class AddToCart2_73 {
 				Thread.sleep(3000);
 
 				j++;
-				driver.findElements(By.xpath("//button[text()='ADD TO CART']")).get(i).click();
+			//	driver.findElements(By.xpath("//button[text()='ADD TO CART']")).get(i).click();
+				// remove the above line because x-path with 'text' is not suggested as this is not reliable.
+				driver.findElements(By.xpath("//div[@class='product-action']")).get(i).click();
 				System.out.println(formattedName);
 
 				if(j == itemNeeded.length) {

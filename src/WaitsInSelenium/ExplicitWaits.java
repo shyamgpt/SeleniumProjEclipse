@@ -29,8 +29,11 @@ public class ExplicitWaits {
 		   WebDriverManager.chromedriver().setup();
 			WebDriver driver = new ChromeDriver();
 			driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
+			
 			WebDriverWait wait = new WebDriverWait(driver, 30);
 			wait.until(ExpectedCondition.)
+			
+			// Read the theory--Methods available in explicit methods
 			
        }
 
