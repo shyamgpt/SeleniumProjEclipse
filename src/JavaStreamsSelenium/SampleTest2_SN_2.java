@@ -5,8 +5,8 @@ import java.util.stream.Stream;
 
 import org.testng.annotations.Test;
 
-public class SampleTest2 {
-	
+public class SampleTest2_SN_2 {
+	// SN Stand for Serial Number.
 	
 	@Test
 	public static void regular() {

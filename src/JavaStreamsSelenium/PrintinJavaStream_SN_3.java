@@ -5,7 +5,7 @@ import java.util.stream.Stream;
 
 import org.testng.annotations.Test;
 
-public class PrintinJavaStream {
+public class PrintinJavaStream_SN_3 {
 
 	@Test
 	public void streamFilter() {
@@ -17,7 +17,7 @@ public class PrintinJavaStream {
 		names.add("Romiya");
 
 //		names.stream().filter(s->s.length()>4).forEach(s->System.out.println(s));
-		names.stream().filter(s->s.length()>4).limit(1).forEach(s->System.out.println(s));
+		names.stream().filter(s->s.length()>4).limit(2).forEach(s->System.out.println(s));
 
 	}
 

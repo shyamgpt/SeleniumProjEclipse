@@ -2,6 +2,7 @@ package WaitsInSelenium;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.By.ByCssSelector;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -23,16 +24,16 @@ import org.testng.annotations.Test;
  * */
 public class ExplicitWaits {
 	
-	
-	   @Test
-       public void WaitsExp() {
-		   WebDriverManager.chromedriver().setup();
-			WebDriver driver = new ChromeDriver();
-			driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
-			
-			WebDriverWait wait = new WebDriverWait(driver, 30);
-			wait.until(ExpectedCondition.)
-			
+//	
+//	   @Test
+//       public void WaitsExp() {
+//		   WebDriverManager.chromedriver().setup();
+//			WebDriver driver = new ChromeDriver();
+//			driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
+//			
+//			WebDriverWait wait = new WebDriverWait(driver, 30);
+//			wait.until(ExpectedCondition.VisibilityOfElementLocatedBy(ByCssSelector("")))
+//			
 			// Read the theory--Methods available in explicit methods
 			
        }

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-16T20:25:25Z" name="Default suite" finished-at="2025-03-16T20:25:34Z" duration-ms="8878">
+  <suite started-at="2025-06-04T13:25:51Z" name="Default suite" finished-at="2025-06-04T13:25:51Z" duration-ms="28">
     <groups>
     </groups>
-    <test started-at="2025-03-16T20:25:25Z" name="Default test" finished-at="2025-03-16T20:25:34Z" duration-ms="8878">
-      <class name="AddToCart2_73">
-        <test-method signature="AddindToCart()[pri:0, instance:AddToCart2_73@14dd7b39]" started-at="2025-03-17T01:55:25Z" name="AddindToCart" finished-at="2025-03-17T01:55:34Z" duration-ms="8865" status="PASS">
+    <test started-at="2025-06-04T13:25:51Z" name="Default test" finished-at="2025-06-04T13:25:51Z" duration-ms="28">
+      <class name="JavaStreamsSelenium.StreamCollectConcepts_Map_SN_4">
+        <test-method signature="streamCollect()[pri:0, instance:JavaStreamsSelenium.StreamCollectConcepts_Map_SN_4@51891008]" started-at="2025-06-04T18:55:51Z" name="streamCollect" finished-at="2025-06-04T18:55:51Z" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddindToCart -->
-      </class> <!-- AddToCart2_73 -->
+        </test-method> <!-- streamCollect -->
+      </class> <!-- JavaStreamsSelenium.StreamCollectConcepts_Map_SN_4 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

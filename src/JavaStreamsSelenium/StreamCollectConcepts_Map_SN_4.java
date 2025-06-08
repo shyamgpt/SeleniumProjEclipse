@@ -13,21 +13,23 @@ import java.util.stream.Stream;
 
 import org.testng.annotations.Test;
 
-public class StreamCollectConcepts_Map {
+public class StreamCollectConcepts_Map_SN_4 {
 
 	@Test
 	public void streamCollect() {
 
 		
 		// How to print the stream --> 
-	/*	Stream.of("Abi", "Don", "Ale", "Adam", "Ram").filter(s -> s.endsWith("m"))
-		.map(s -> s.toUpperCase()).forEach(s->System.out.println(s)); */
+		Stream.of("Abi", "Don", "Ale", "Adam", "Ram").filter(s -> s.endsWith("m"))
+		.map(s -> s.toUpperCase()).forEach(s->System.out.println(s)); 
 		
 		
 	//print names which have last letter as "a" with Uppercase
 		List<String> ls = Stream.of("Abi", "Don", "Ale", "Adam", "Ram").filter(s -> s.endsWith("m"))
 				.map(s -> s.toUpperCase()).collect(Collectors.toList());
 		System.out.println(ls.get(0));
+		
+		//collect method will collect the stream from prvious steps of what manupulattions has been done.
 		
 
 		//Print the unique number from the given array and Converting array to ArrayList-->
@@ -41,6 +43,19 @@ public class StreamCollectConcepts_Map {
 		//print names which have first letter as a with uppercase and sorted 
 		List<String>names = Arrays.asList("Abi", "Don", "Ale", "Adam", "Aram");
 		names.stream().filter(s->s.startsWith("A")).sorted().map(s-> s.toUpperCase()).forEach(s->System.out.println(s));
+		
+		/*
+		 * Converting Array into arrayList-->
+		 * 
+		 * Arrays.asList(arg0);
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * **/
 
 	}
 

@@ -41,7 +41,21 @@ public class SortingWebTableSTream {
 //		
 		
 		
-		
+		/**
+		 * List<Intger>names = Array.asList(3,2,2,4,5,6,7);
+		 * 
+		 * names.stream.distinct().forEach(s->System.out.println(s));
+		 * 
+		 * Print the unique number from this array
+		 * Sort the array
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * */
 		
 		
 		

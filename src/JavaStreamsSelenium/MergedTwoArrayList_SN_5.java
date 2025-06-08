@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class MergedTwoArrayList {
+public class MergedTwoArrayList_SN_5 {
 	
 	@Test
 	public static void mergeTwoList() {

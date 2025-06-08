@@ -13,7 +13,7 @@ public class ExplicitWait_Concept {
 	 * Selenium-4-->
 	 * 
 	 * WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-	 * wait.until(ExpectedCondtion. )
+	 * wait.until(ExpectedCondtion.VisiblityOfElement(Xpath));
 	 * 
 	 * 
 	 * 
