@@ -14,9 +14,18 @@ public class ReadExcel {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		
+		// Read the file from file path
 		File file = new File("E:\\Selenium Jars\\filewriting\\myExcelFile.xlsx");
+		
+		//Convert file to fileInputStream format(A format which java understand)
 		FileInputStream fis  = new FileInputStream(file);
+		
+		//XSSF (XML SpreadSheet format) --> i.e FileInputStream
+		
+		//Create a workbook instance holding the reference of fileName.xlsx file
 		XSSFWorkbook wbk = new XSSFWorkbook(fis);
+		
+		// Get desired sheet from workbook
 		XSSFSheet sheet = wbk.getSheetAt(0);
 		
 		int rows = sheet.getLastRowNum();
@@ -44,6 +53,9 @@ public class ReadExcel {
 					System.out.println(cell.getBooleanCellValue());
 					break;
 					
+				default:
+					System.out.println("NaN");
+					break;
 				}
 				
 //				data[i][j] = formatter.formatCellValue(cell);

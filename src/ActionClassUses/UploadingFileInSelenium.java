@@ -22,6 +22,7 @@ public class UploadingFileInSelenium {
 		driver.findElement(By.id("uploadfile")).sendKeys(projectPath+"\\Files\\Wave.jpg");
 		
 		//driver.findElement(By.id("uploadfiles")).sendKeys("C:\\Users\\arun\\Download\\Wave.jpg");
+		System.out.println(projectPath);
 
 	}
 

@@ -19,7 +19,7 @@ public class StaticDropdown_L51 {
 		// TODO Auto-generated method stub
 		
 		
-		WebDriverManager.chromedriver().setup();
+//		WebDriverManager.chromedriver().setup();
 		 WebDriver driver = new ChromeDriver();
 //		 System.setProperty("webdriver.chrome.driver","/Users/shyam/docuemnt/chromdriver");
 		driver.get("https://rahulshettyacademy.com/dropdownsPractise");

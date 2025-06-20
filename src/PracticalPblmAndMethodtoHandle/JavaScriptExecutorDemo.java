@@ -16,7 +16,7 @@ public class JavaScriptExecutorDemo {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		
+		//Url--> https://www.geeksforgeeks.org/java/javascriptexecutor-in-selenium/
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");

@@ -58,6 +58,8 @@ public class ExprtionHanldingTheory {
 		 * 
 		 * Throws and Throw Differences -->
 		 * https://www.javatpoint.com/difference-between-throw-and-throws-in-java
+		 * 
+		 * https://www.geeksforgeeks.org/java/throw-throws-java/
 		 */
 	}
 
