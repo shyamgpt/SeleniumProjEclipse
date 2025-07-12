@@ -18,11 +18,11 @@ public class keyBoardAction {
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com");
 		Actions act = new Actions(driver);
-		driver.findElement(By.name("firstname")).sendKeys("Selenium");
+		driver.findElement(By.id("email")).sendKeys("Selenium");
 		
 		act.sendKeys(Keys.TAB)
-		.pause(Duration.ofSeconds(0))
-		.sendKeys("Webdriver")
+//		.pause(Duration.ofSeconds(0))
+//		.sendKeys("Webdriver")
 		.pause(Duration.ofSeconds(0))
 		.sendKeys("7328973297")
 		.sendKeys(Keys.TAB)

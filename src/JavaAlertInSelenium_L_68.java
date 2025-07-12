@@ -36,7 +36,7 @@ public class JavaAlertInSelenium_L_68 {
 		
 		/* Window Authentication popup --> Where we provide the username and passowrd in the popup to get login
 		 * into the website (These popup are known as window authentication popup)
-		 * When we will network related website then we will come across these kind of popups and we prompted to
+		 * When we will work with network related website then we will come across these kind of popups and we prompted to
 		 * give username and password. and these popups can not be handled with switch to alert mechanism.
 		 * We use AutoIT to handle these type of window authentication popups
 		 * Eg--> String url =  "https://"+"admin"+ ":" + "admin"+ "@" + "www.google.com";

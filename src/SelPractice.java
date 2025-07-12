@@ -24,7 +24,7 @@ public class SelPractice {
 		
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("window.scroll(0, 500)");
-		js.executeScript("document.queruSelector('.').scrollTop=5000");
+		js.executeScript("document.querySelector('.').scrollTop=5000");
 		
 		
 		/*

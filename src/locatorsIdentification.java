@@ -49,7 +49,9 @@ public class locatorsIdentification {
 		 String pwdText = driver.findElement(By.cssSelector(".infoMsg")).getText();
 		 System.out.println(pwdText);
 		String[] pwdSpltFirst = pwdText.split("'");
+		System.out.println(pwdSpltFirst[1]);
 		String[] pwdSpltSecnd = pwdSpltFirst[1].split("'");
+		System.out.println(pwdSpltSecnd[0]);
 		String finalPwd = pwdSpltSecnd[0];
 		System.out.println(finalPwd);
 		return finalPwd;
