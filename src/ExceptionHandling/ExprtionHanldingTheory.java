@@ -15,10 +15,11 @@ public class ExprtionHanldingTheory {
 		/*
 		 * Halting of program adruptly is called an exception. 
 		 * - In java to handle the exception we use try & Catch block 
-		 * - Whenever an exception happen inside try -catch block. try will create a exception object and reference of that objcet
-		 * will give to catch block 
-		 * - Catch will now handle the exception and hence
-		 * program will not halt adruptly.
+		 * - Whenever an exception happen inside try -catch block. try will create a exception object and 
+		 * reference of that objcet will give to catch block.
+		 *  
+		 * - Catch will now handle the exception and hence program will not halt adruptly.
+		 * 
 		 * 
 		 * 
 		 * try { 
@@ -38,7 +39,8 @@ public class ExprtionHanldingTheory {
 		 * 
 		 * -we can handle the exception in two ways:
 		 * 
-		 * By using try catch By using the throws keyword
+		 * 1) By using try catch 
+		 * 2) By using the throws keyword
 		 * 
 		 * 
 		 * 

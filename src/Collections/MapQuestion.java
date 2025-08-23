@@ -36,6 +36,7 @@ public class MapQuestion {
 		            }
 	            }
 	        }
+	        System.out.println(charCountMap);
 	 
 	        // Printing the charCountMap
 	        Set<Character> keys= charCountMap.keySet();

@@ -29,6 +29,30 @@ public class ArrayListExample {
 	   System.out.println(a.indexOf("rahul"));
 	   System.out.println(a.isEmpty());
 	   System.out.println(a.size());
+	   
+	   /*
+	    * 
+	    * ✅ Important Methods of Collection interface:
+                        Method-->	Description
+                         add()-->	Adds an element
+                         remove()-->	Removes an element
+                         get()-->
+                         clear()-->	Removes all elements
+                         size()-->	Returns the number of elements
+                         isEmpty()-->	Checks if collection is empty
+                         contains()-->	Checks if element exists
+                         indexOf()--> returns the index
+                         iterator()-->	Returns an iterator to loop
+	    * 
+	    * 
+	    * 
+	    * 
+	    * 
+	    * 
+	    * 
+	    * 
+	    * 
+	    * */
 
 	}
 

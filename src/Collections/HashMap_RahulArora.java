@@ -20,6 +20,7 @@ public class HashMap_RahulArora {
 		System.out.println(map.get("firstName"));
 
 		Set<String> keys = map.keySet();
+		System.out.println("keys-->" +keys);
 		for(String key : keys) {
 			System.out.println("Key --> "+key+ ", Value is --> "+map.get(key));
 		}
