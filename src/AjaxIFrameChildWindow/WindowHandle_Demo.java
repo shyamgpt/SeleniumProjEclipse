@@ -38,10 +38,11 @@ public class WindowHandle_Demo {
 
 			if (!parent.equals(child_window)) {
 				driver.switchTo().window(child_window);
-
-				System.out.println(driver.switchTo().window(child_window).getTitle());
-
 				driver.close();
+
+//				System.out.println(driver.switchTo().window(child_window).getTitle());
+
+				
 			}
 
 		}

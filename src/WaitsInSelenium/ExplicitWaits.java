@@ -49,7 +49,43 @@ public class ExplicitWaits {
   */
 	
 	
-	
+	/*
+	 * Practical Examples of Explicit wait -->
+	 * 
+	 * 1. Dashboard Loading (After Login)-->(little extra time is required)
+	 * 
+	 * Once login is done, account balance and dashboard sections take a few seconds to load.
+	 * Explicit Wait ensures the account summary table is visible.
+	 * 
+	 * wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("accountSummaryTable")));
+
+	 * 
+	 * 
+	 * 2. Funds Transfer – Wait for Confirmation Message-->
+	 * After clicking "Transfer", the success message (e.g., "Transaction Successful") appears dynamically.
+	 * Use Explicit Wait to wait for the message instead of using Thread.sleep().
+	 * WebElement successMsg = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='alert-success']")));
+       System.out.println(successMsg.getText());
+
+	 * 
+	 * 3. Logout Button Availability-->
+	 * Some banking apps disable buttons during transactions.
+	 * After completing a transaction, wait for the Logout button to be clickable again.
+	 * 
+	 * wait.until(ExpectedConditions.elementToBeClickable(By.id("logoutBtn"))).click();
+
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * */
 	
 	
 	
@@ -121,5 +157,7 @@ driver.quit();
 	 * 
 	 * 
 	 */
+	
+	
 
 }

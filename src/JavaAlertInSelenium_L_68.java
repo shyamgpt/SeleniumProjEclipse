@@ -40,6 +40,7 @@ public class JavaAlertInSelenium_L_68 {
 		 * give username and password. and these popups can not be handled with switch to alert mechanism.
 		 * We use AutoIT to handle these type of window authentication popups
 		 * Eg--> String url =  "https://"+"admin"+ ":" + "admin"+ "@" + "www.google.com";
+		 * driver.get("http://username:password@yourwebsite.com");
 		 * 
 		 * */
 		

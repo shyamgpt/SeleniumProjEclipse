@@ -21,6 +21,7 @@ public class ActionDemo {
 
 		Thread.sleep(2000);
 
+		//Mouse Hover-->
 		WebElement move = driver.findElement(By.cssSelector("span[id='nav-link-accountList-nav-line-1']"));
 
 		Actions a = new Actions(driver);

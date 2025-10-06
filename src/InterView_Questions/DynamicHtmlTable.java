@@ -66,7 +66,7 @@ public class DynamicHtmlTable {
 			String colValue = ele1.getText();
 			System.out.println(colValue);
 			if(colValue.contains("Country")) {
-				status = true;
+				colStatus = true;
 				break;
 			}
 			
