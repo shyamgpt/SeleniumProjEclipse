@@ -27,6 +27,18 @@ public class AutoSuggestveDropDown_L58 {
 				option.click();
 				break;
 			}
+			/*
+			 * List<WebElement> products = driver.findElements(By.cssSelector("h4.product-name"));
+
+		for (int i = 0; i < products.size(); i++) {
+			String name = products.get(i).getText();
+//			if (name.equalsIgnoreCase("Beetroot")) {
+			if (name.contains("Beetroot")) {
+				driver.findElements(By.xpath("//button[text()='ADD TO CART']")).get(i).click();
+
+				break;
+			 * 
+			 * */
 		}
 
 	}

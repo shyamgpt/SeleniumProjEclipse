@@ -116,7 +116,7 @@ System.setProperty("webdriver.chrome.driver", "C://chromedriver.exe");
 
 WebDriver driver=new ChromeDriver();
 
-//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 
 WebDriverWait w =new WebDriverWait(driver,5);
 

@@ -34,9 +34,10 @@ public class ArrayListExample {
 	    * 
 	    * ✅ Important Methods of Collection interface:
                         Method-->	Description
+                          get()-->to get element at given locstion
                          add()-->	Adds an element
                          remove()-->	Removes an element
-                         get()-->
+                       
                          clear()-->	Removes all elements
                          size()-->	Returns the number of elements
                          isEmpty()-->	Checks if collection is empty

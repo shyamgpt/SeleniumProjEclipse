@@ -26,7 +26,7 @@ public class child extends Parent {
      * can be change to default, proctect and public but not private.
      * 
      * Ques-  can we override static method?
-     * Ans -- NO (this is alsi known as method hiding)
+     * Ans -- NO (this is also known as method hiding)
      * 
      * */
     

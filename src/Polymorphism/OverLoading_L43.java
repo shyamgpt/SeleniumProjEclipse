@@ -6,7 +6,7 @@ public class OverLoading_L43 {
 	 * changing the return type? Ans is: NO. 
 	 * Ques : Can we overlaod the main method
 	 * in java? Ans : Yes 
-	 * Polymorphism - Sama name + multiple form
+	 * Polymorphism - Same name + multiple form
 	 * (Action/Behaviour) Types of polymorphism 1. Compile time /Early binding /
 	 * static binding/ Overloading 2. Run time/ late Binding / Dynamic binding /
 	 * Overriding Duplicacy and ambiguity

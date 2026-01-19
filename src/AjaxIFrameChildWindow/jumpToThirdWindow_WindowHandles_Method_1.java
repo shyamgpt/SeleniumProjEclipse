@@ -30,7 +30,7 @@ public class jumpToThirdWindow_WindowHandles_Method_1 {
         
         while (iterator.hasNext()) {
             String handle = iterator.next();
-            if (i == 3) {   // move to 3rd window
+            if (i == 3) {   // get the 3rd window id
                 thirdWindow = handle;
                 break;
             }
